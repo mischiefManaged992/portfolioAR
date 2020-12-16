@@ -1,0 +1,22 @@
+.container{
+    height: 35px;
+    display: flex;   
+}
+
+
+button{
+    border: none;
+    outline:none;
+    text-align: center;
+    background: none;
+    color: white;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: "Crimson Text", Georgia;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+button:hover{
+    border-bottom: 2px solid white;
+}

@@ -1,0 +1,184 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.eduContainer{
+    width: 100%;
+    font-size: 17px;
+    color: black;
+
+    background-image: url("../../assets/bg_edu.jpg");
+    background-color: white;
+    background-blend-mode: luminosity;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.innereduContainer{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 25px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.empbgCont{
+    width:100%;
+    background-color: #D2D2D2;
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+}
+
+.empContainer{
+    width: 70%;
+    font-size: 17px;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+h3{
+
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Crimson Text", Georgia;
+    color: black;
+    text-align: center;
+
+}
+
+/*
+.projectContainer1{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectContainer2{
+    height: 80vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    transform: rotate(-90deg) translateY(-100vh);
+    transform-origin: right top;
+    
+    scrollbar-width: none;
+
+}
+
+.projectContainer2::-webkit-scrollbar {
+    display: none;
+}
+*/
+
+.projectContainer1{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/bg_edu_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.projectContainer2{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* overflow-x: scroll; */
+    
+}
+
+/* .projectContainer2::-webkit-scrollbar {
+    display: none;
+} */
+
+.items{
+    min-width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 13px;
+    font-size: 17px;
+    background-color: rgb(65,65,65);
+    color: white;
+}
+
+.uniquecontainer1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D2D2D2;
+    align-items: center;
+    text-align: center;
+
+}
+
+.uniquecontainer2{
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px 0px 40px;
+
+}
+
+.uniquecontainer2 p{
+    font-family: "Crimson Text", Georgia;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.caspielContainer{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Crimson Text", Georgia;
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+.caspielImg{
+    border-radius: 50%;
+    border: 5px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    background-image: url(../../assets/Cass.jpeg);
+    background-size: cover;
+    background-position: center;
+}
